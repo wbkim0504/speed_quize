@@ -20,7 +20,7 @@ sudo apt install glfw (X)
 CMakeLists.txt 에서 shared option을 ON으로 변경
 ```
 
-### 필요 라이브러리 설치
+필요 라이브러리 설치
 ```
 sudo apt install libxinerama-dev libxcursor-dev libxi-dev
 ```
