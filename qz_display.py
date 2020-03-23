@@ -335,11 +335,11 @@ def make_problem():
 			a = int (1 + random()*9)
 			b = int (1 + random()*9)
 		elif operation_level == 2:
-			a = int (1 + random()*99)
+			a = int (10 + random()*90)
 			b = int (1 + random()*9)
 		elif operation_level == 3:
-			a = int (1 + random()*99)
-			b = int (1 + random()*99)
+			a = int (10 + random()*90)
+			b = int (10 + random()*90)
 		else:
 			a = int (1 + random()*9)
 			b = int (1 + random()*9)
