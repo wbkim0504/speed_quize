@@ -20,7 +20,7 @@ sudo apt install glfw (X)
 CMakeLists.txt 에서 shared option을 ON으로 변경
 ```
 
-필요 라이브러리 설치
+## 필요 라이브러리 설치
 ```
 sudo apt install libxinerama-dev libxcursor-dev libxi-dev
 ```
@@ -54,9 +54,8 @@ python –m pip install PyOpenGL PyOpenGL-accelerate
 - mpu_monitoring 실행에 필요한 python 모듈을 설치한다.  
 python –m pip install glfw  
 python –m pip install freetype-py  
-python –m pip install pymongo==2.6  
 
-- mpu_monitoring 설치 디렉토리로 이동하여 mpu_monitor를 실행한다.  
-python mpu_main.py
+- speed_quiz 설치 디렉토리로 이동하여 qz_main 을 실행한다.  
+python qz_main.py
 ```
 
